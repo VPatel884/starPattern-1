@@ -19,7 +19,7 @@ for (let i = 1; i <= n; i++) {
 for (let i = n; i >= 1; i--) {
 
   let spc1 = "";
-  for (let j = 1; j <= (n - i); j++) {
+  for (let j = 1; j <= ((n - i)+1); j++) {
     spc1 += " ";
   }
   let str1 = "";
